@@ -1,9 +1,9 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Contact_Vcard_Build
+%define		_class		Contact_Vcard_Build
 %define		_status		stable
 %define		_pearname	%{_class}
 
-Summary:	%{_pearname} - Build (create) and fetch vCard 2.1 and 3.0 text blocks
+Summary:	%{_pearname} - build (create) and fetch vCard 2.1 and 3.0 text blocks
 Summary(pl):	%{_pearname} - tworzenie i wyci±ganie bloków tekstu vCard 2.1 i 3.0
 Name:		php-pear-%{_pearname}
 Version:	1.1
