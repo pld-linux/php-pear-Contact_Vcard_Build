@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Allows you to programmatically create a vCard, version 2.1 or 3.0, and
 fetch the vCard text.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa pozwala na programowe tworzenie vCard w wersji 2.1 lub 3.0 oraz
