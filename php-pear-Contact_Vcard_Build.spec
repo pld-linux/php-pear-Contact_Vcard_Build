@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - build (create) and fetch vCard 2.1 and 3.0 text blocks
 Summary(pl):	%{_pearname} - tworzenie i wyci±ganie bloków tekstu vCard 2.1 i 3.0
 Name:		php-pear-%{_pearname}
-Version:	1.1
-Release:	3.1
+Version:	1.1.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	317afcf8a052d0200b2cb7a1c88cd0ef
+# Source0-md5:	c22cfac5cdade9116c26644f25c33d96
 URL:		http://pear.php.net/package/Contact_Vcard_Build/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
