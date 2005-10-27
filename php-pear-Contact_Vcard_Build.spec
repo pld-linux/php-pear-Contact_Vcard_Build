@@ -8,6 +8,7 @@ Summary(pl):	%{_pearname} - tworzenie i wyci±ganie bloków tekstu vCard 2.1 i 3.0
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	1
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
