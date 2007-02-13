@@ -4,7 +4,7 @@
 %define		_pearname	%{_class}
 
 Summary:	%{_pearname} - build (create) and fetch vCard 2.1 and 3.0 text blocks
-Summary(pl.UTF-8):   %{_pearname} - tworzenie i wyciąganie bloków tekstu vCard 2.1 i 3.0
+Summary(pl.UTF-8):	%{_pearname} - tworzenie i wyciąganie bloków tekstu vCard 2.1 i 3.0
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	2
@@ -35,7 +35,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
