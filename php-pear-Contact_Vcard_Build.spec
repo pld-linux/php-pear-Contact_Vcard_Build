@@ -2,17 +2,16 @@
 %define		_class		Contact_Vcard_Build
 %define		_status		stable
 %define		_pearname	%{_class}
-
 Summary:	%{_pearname} - build (create) and fetch vCard 2.1 and 3.0 text blocks
 Summary(pl.UTF-8):	%{_pearname} - tworzenie i wyciąganie bloków tekstu vCard 2.1 i 3.0
 Name:		php-pear-%{_pearname}
-Version:	1.1.1
-Release:	3
+Version:	1.1.2
+Release:	1
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c22cfac5cdade9116c26644f25c33d96
+# Source0-md5:	6df82ac23c3786e2e2a4b08e60cc6aa9
 URL:		http://pear.php.net/package/Contact_Vcard_Build/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -38,8 +37,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
@@ -63,6 +62,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/%{_class}.php
+%dir %{php_pear_dir}/Contact/Vcard
+%{php_pear_dir}/Contact/Vcard/Build.php
 
 %files tests
 %defattr(644,root,root,755)
