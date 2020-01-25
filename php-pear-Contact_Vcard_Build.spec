@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Contact_Vcard_Build
 %define		_status		stable
 %define		_pearname	%{_class}
